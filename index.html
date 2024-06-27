@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単筋トレアプリ</title>
+</head>
+<body>
+    <h1>簡単筋トレアプリ</h1>
+    <div id="workout-form">
+        <h2>トレーニングを記録</h2>
+        <select id="workout-type">
+            <option value="pushup">腕立て伏せ</option>
+            <option value="squat">スクワット</option>
+            <option value="situp">腹筋</option>
+        </select>
+        <input type="number" id="workout-count" placeholder="回数">
+        <button id="record-workout">記録する</button>
+    </div>
+    <div id="workout-history">
+        <h2>トレーニング履歴</h2>
+        <ul id="history-list"></ul>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
